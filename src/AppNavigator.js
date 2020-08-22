@@ -151,6 +151,7 @@ const Styles = StyleSheet.create({
   },
   userNameInput: {
     marginStart: 10,
+    color: 'white',
   },
   passwordContainer: {
     borderColor: '#262626',
@@ -164,7 +165,7 @@ const Styles = StyleSheet.create({
     backgroundColor: colors.loginInputBackground,
     marginBottom: 20,
   },
-  passwordInput: {marginStart: 10},
+  passwordInput: {marginStart: 10, color: 'white'},
   forgotPasswordContainer: {
     alignItems: 'flex-end',
     marginEnd: 20,
