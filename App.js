@@ -1,19 +1,9 @@
+import AppNavigator from './src/AppNavigator';
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
 
 function App() {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Test</Text>
-    </View>
-  );
+  return <NavigationContainer>{<AppNavigator />}</NavigationContainer>;
 }
 
 export default App;
