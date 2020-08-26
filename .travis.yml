@@ -5,11 +5,14 @@ node_js:
 branches:
   only:
   - master
+cache:
+  directories:
+  - node_modules
 before_install:
 - npm update
 install:
 - npm install
 - yarn install
 script:
-- npm lint
+- npm run lint
 
