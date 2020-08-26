@@ -15,7 +15,6 @@
     "@react-navigation/bottom-tabs": "^5.8.0",
     "@react-navigation/native": "^5.7.3",
     "@react-navigation/stack": "^5.9.0",
-    "coveralls": "^3.1.0",
     "react": "16.13.1",
     "react-native": "0.63.2",
     "react-native-camera": "^3.36.0",
@@ -35,6 +34,7 @@
     "eslint": "^7.6.0",
     "jest": "^26.2.2",
     "metro-react-native-babel-preset": "^0.61.0",
+    "nyc": "^15.1.0",
     "react-test-renderer": "16.13.1"
   },
   "jest": {

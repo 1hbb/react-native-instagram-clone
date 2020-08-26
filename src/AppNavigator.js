@@ -133,7 +133,6 @@ const Styles = StyleSheet.create({
   logoContainer: {
     alignItems: 'center',
     justifyContent: 'center',
-    alignItems: 'center',
     alignContent: 'center',
   },
   userNameContainer: {
