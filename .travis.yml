@@ -12,6 +12,7 @@ before_install:
 - npm update
 install:
 - npm install
+- yarn install
 script:
 - npm test
 - npm run coveralls
