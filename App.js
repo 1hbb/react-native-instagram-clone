@@ -14,6 +14,6 @@ function App() {
       <Text>Test</Text>
     </View>
   );
-};
+}
 
 export default App;
