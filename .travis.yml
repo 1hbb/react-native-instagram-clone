@@ -11,5 +11,5 @@ install:
 - npm install
 - yarn install
 script:
-- npm test
+- npm lint
 
