@@ -7,8 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@react-native-community/cameraroll": "^4.0.0",
